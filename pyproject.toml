@@ -3,9 +3,9 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "g1-jev-swarm-lab"
+name = "g1-mission-runtime"
 version = "0.0.0"
-description = "Research testbed for long-horizon Unitree G1 tasks with Jev decision models, multi-swarm orchestration, and RL skills."
+description = "Evidence-native mission runtime for Unitree G1: mission IR, task graph, deterministic skill dispatch and strict outcome evaluation."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "Apache-2.0" }

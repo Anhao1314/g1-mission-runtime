@@ -258,7 +258,7 @@ class DeepSeekResponsesBackend:
                 "Content-Type": "application/json",
                 "Accept": "application/json",
                 "Authorization": f"Bearer {self.config.api_key}",
-                "User-Agent": "g1-jev-swarm-lab/phase2.2",
+                "User-Agent": "g1-mission-runtime/phase2.2",
             },
         )
         started = time.perf_counter()

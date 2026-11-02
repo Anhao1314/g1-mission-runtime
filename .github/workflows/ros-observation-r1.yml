@@ -17,7 +17,7 @@ permissions:
 
 jobs:
   real-ros2-roundtrip:
-    if: github.event.pull_request.head.ref == 'ros/observation-bridge-v0.1' && github.event.pull_request.head.repo.full_name == 'Anhao1314/g1-jev-swarm-lab'
+    if: github.event.pull_request.head.ref == 'ros/observation-bridge-v0.1' && github.event.pull_request.head.repo.full_name == 'Anhao1314/g1-mission-runtime'
     runs-on: ubuntu-24.04
     timeout-minutes: 12
     container:

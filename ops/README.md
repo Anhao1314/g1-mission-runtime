@@ -1,6 +1,6 @@
 # Research Ops v0.1
 
-From the **g1-jev-swarm-lab** repo, begin with:
+From the **g1-mission-runtime** repo, begin with:
 
 ```powershell
 .venv/Scripts/python.exe scripts/research_ops.py context

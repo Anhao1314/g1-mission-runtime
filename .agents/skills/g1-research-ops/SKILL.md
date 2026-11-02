@@ -1,6 +1,6 @@
 ---
 name: g1-research-ops
-description: Load current G1 research state, route verification, record task costs, and close bounded engineering or experiment tasks in g1-jev-swarm-lab.
+description: Load current G1 research state, route verification, record task costs, and close bounded engineering or experiment tasks in g1-mission-runtime.
 ---
 
 Run `.venv/Scripts/python.exe scripts/research_ops.py context` from the repo before broad discovery. It reads pinned state anchors, not experiment history. If STALE/BLOCKED, inspect the named source; do not infer a new verdict or silently refresh pins. From a chat rooted elsewhere, read the repo's AGENTS.md and invoke these files explicitly.

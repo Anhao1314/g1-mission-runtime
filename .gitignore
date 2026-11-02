@@ -59,3 +59,7 @@ smoke_report.json
 # Vendored official robot assets: fetched by scripts/fetch_g1_models.ps1,
 # never committed (large MJCF meshes and pretrained policy binaries).
 third_party/
+
+# Local demo venv and generated demo evidence
+.venv-demo/
+demos/out/
